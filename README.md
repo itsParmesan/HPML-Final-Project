@@ -7,6 +7,7 @@ Chain of Thought (CoT) in LLMs is the idea that explicitly getting the model to 
 A trained LLM can be made to follow the CoT approach by:
 1) Providing it with prompts that explicitly ask the model to demonstrate step-by-step thinking, include examples related to the task at hand etc
 2) Fine tuning the model on a CoT dataset
+
 The first approach, i.e. prompt engineering, results in model responses of higher quality but leads to slower response times as CoT task prompts are generally longer and context heavy, leading to longer input processing time and an increased number of output tokens to be generated. The second approach, i.e. fine tuning, can also be time consuming as LLMs contain a large number of parameters.
 
 ## Our Solution
