@@ -26,5 +26,8 @@ The code for each experiment is in a separate notebook. For each model the follo
 4) \<Model>_Finetuning_Baseline: Measure the time taken to finetune the model for a couple of epochs on a specific CoT task.
 5) \<Model>_Finetuning_LoRA: Measure the time taken to finetune the model for a couple of epochs on a specific CoT task using LoRA.
 
+## Code Execution
+Any notebook can be run by simply selecting the "Run all" option in the "Runtime" dropdown. Kaggle or Hugging Face login might be required at some points in the notebooks, the required credentials for which are present in a text box above the cell running the login function in each of the notebooks.
+
 ## Results
 Please find details on the obtained results and the related discussion in the paper submitted along with this repository.
