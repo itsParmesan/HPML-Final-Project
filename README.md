@@ -21,10 +21,10 @@ We experimented with 2 models in this project: Flan T5 (specifically trained for
 ## Code Structure
 The code for each experiment is in a separate notebook. For each model the following experiments are performed (and the corresponding notebook is named as shown below):
 1) `\<Model>_Inference_Baseline`: Measure the time taken by the model to generate responses for a small sample of CoT prompts.
-2) \<Model>_Inference_torch_compile(): Measure the time taken by the model, compiled using torch.compile(), to generate responses for a small sample of CoT prompts. All the available modes for torch.compile() are tried out.
-3) \<Model>_Inference_Quantization: Measure the time taken by the quantized version of the model to generate responses for a small sample of CoT prompts. Several different precisions are tried out for each model.
-4) \<Model>_Finetuning_Baseline: Measure the time taken to finetune the model for a couple of epochs on a specific CoT task.
-5) \<Model>_Finetuning_LoRA: Measure the time taken to finetune the model for a couple of epochs on a specific CoT task using LoRA.
+2) `\<Model>_Inference_torch_compile()`: Measure the time taken by the model, compiled using torch.compile(), to generate responses for a small sample of CoT prompts. All the available modes for torch.compile() are tried out.
+3) `\<Model>_Inference_Quantization`: Measure the time taken by the quantized version of the model to generate responses for a small sample of CoT prompts. Several different precisions are tried out for each model.
+4) `\<Model>_Finetuning_Baseline`: Measure the time taken to finetune the model for a couple of epochs on a specific CoT task.
+5) `\<Model>_Finetuning_LoRA`: Measure the time taken to finetune the model for a couple of epochs on a specific CoT task using LoRA.
 
 ## Code Execution
 Any notebook can be run by simply selecting the "Run all" option in the "Runtime" dropdown. Kaggle or Hugging Face login might be required at some points in the notebooks, the required credentials for which are present in a text box above the cell running the login function in each of the notebooks.
