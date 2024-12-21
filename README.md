@@ -11,6 +11,7 @@ The first approach, i.e. prompt engineering, results in model responses of highe
 
 ## Our Solution
 We propose the application of quantization and torch.compile() to reduce response times for pre-trained LLMs on CoT tasks. We also explore the reduction of finetuning time using LoRA.
+
 <img width="449" alt="Screenshot 2024-12-21 at 6 44 44 AM" src="https://github.com/user-attachments/assets/4afef5f2-153e-4de4-8ac6-1d3e3c1183bf" />
 
 ## Set Up
